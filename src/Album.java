@@ -16,8 +16,16 @@ public class Album {
         return this.name;
     }
 
-    public String getArtist() {
-        return artist.toString();
+    public Artist getArtist() {
+        return this.artist;
+    }
+
+    public int getYear() {
+        return this.year;
+    }
+
+    public Genre getGenre() {
+        return genre;
     }
 
 }

@@ -9,9 +9,8 @@ public class Compilation extends Album{
         super(name, null, genre, year);
     }
 
-    public String toString() {
-        return this.name;
+    void addTrack(Track track){
+        tracks.add(track);
     }
-
 
 }

@@ -11,4 +11,16 @@ public class Track {
         return this.name;
     }
 
+    public Album getAlbum(){
+        return this.album;
+    }
+
+    public Artist getArtist(){
+        return this.album.getArtist();
+    }
+
+    public Genre getGenre() {
+        return this.album.getGenre();
+    }
+
 }

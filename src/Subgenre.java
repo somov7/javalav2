@@ -2,13 +2,13 @@ public class Subgenre extends Genre {
 
     String subname;
 
-    public Subgenre(Genre genre, String name) {
+    public Subgenre(String name, Genre genre) {
         super(genre);
         this.subname = name;
     }
 
     public String toString() {
-        return this.subname;
+        return this.name + " : " + this.subname;
     }
 
 }
